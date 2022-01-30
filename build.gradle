@@ -34,6 +34,17 @@ java {
 }
 
 dependencies {
+    // Tech Easy Solutions
+    implementation "${project.group}:tes-rest-models:${project.property('tes-rest-models.version')}"
+
+    // Spring Boot
+    implementation "org.springframework:spring-web:${project.property('spring-framework.version')}"
+    implementation "org.springframework:spring-webmvc:${project.property('spring-framework.version')}"
+    compileOnly "javax.servlet:javax.servlet-api:${project.property('javax-servlet-api.version')}"
+
+    // Open API
+    api "org.springdoc:springdoc-openapi-ui:${project.property('springdoc-openapi.version')}"
+
     // Lombok
     compileOnly "org.projectlombok:lombok:${project.property('lombok.version')}"
     annotationProcessor "org.projectlombok:lombok:${project.property('lombok.version')}"
