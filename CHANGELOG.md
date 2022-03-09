@@ -19,3 +19,12 @@ For release-dates, use date-format: YYYY-MM-DD
 ### Fixed
 
 ### Security
+
+## 1.0.0 - 2022-03-09
+### Features
+- [TES-6](https://sunepoulsen.atlassian.net/browse/TES-6): Library for rest exception handling
+
+### Fixed
+
+### Security
+
